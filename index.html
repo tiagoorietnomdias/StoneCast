@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoneCast</title>
+    <link rel="shortcut icon" type="x-icon" href="./stone.png">
+    <link rel="stylesheet" href="./firstpage.css">
+    <link rel="stylesheet" href="./secondpage.css">
+    <link rel="stylesheet" href="./thirdpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="first-wrapper">
+        <div class="header">
+            <ul> 
+                <div class="stonecast-container">
+                    <li class="stonecast-li"><a href="index.html">StoneCast</a></li>
+                </div>
+                <div class="pricing-about-container">
+                    <li><a  onclick=scrollToHowItWorks()>How it works</a></li> 
+                    <li><a onclick=scrollToPricingPlans()> Pricing plans</a></li>
+                     
+                </div>
+            </ul>
+        </div>
+        <div class="main">
+                <div class="main-header">
+                    <h1>No more weather broadcasts.</h1>
+                    <p>Your all-in-one weather solution.</p>
+                </div>
+                    <div class="firstrock"><img  class="firstrockimg" src="./firstrock.png" alt=""></div>
+                
+                <div class="main-content">
+
+                </div>
+        </div>
+        <div class="footer">
+            <h3>Find out more</h3>
+            <i class="fa fa-chevron-down fa-xl" id="arrow-down" style="color: #000000;" onclick="scrollToNextSection()"></i>
+        </div>
+    </div>
+    <div class="second-page" id="second-page">
+        <div class="how-it-works"><h1>How it works</h1></div>
+        
+   
+            
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+            <ul data-slides>
+            <li class="slide L3"><!-- pedra nao esta--> 
+            <img src="https://placehold.co/300">
+            </li>
+    
+            <li class="slide L2"><!-- pedra nao se ve-->
+                <img src="https://placehold.co/400">
+            </li>
+        
+            <li class="slide L1"><!-- pedra seca-->
+                <img src="https://placehold.co/800">
+            </li>
+        
+            <li class="slide centro" data-active><!-- pedra molhada-->
+                <img src="https://placehold.co/400">
+            </li>
+        
+            <li class="slide R1"> <!-- sombra no chao-->
+                <img src="https://placehold.co/400">
+            </li>
+        
+            <li class="slide R2"><!-- pedra molhada-->
+                <img src="https://placehold.co/500">
+            </li>
+        
+            <li class="slide R3"><!-- pedra branca-->
+                <img src="https://placehold.co/600">
+            </li>
+            </ul>
+        </div>
+    
+  
+        
+        
+    
+        
+        <div class="guarantees">
+            <li>
+                <i class="fa fa-check" style="color: #000000;"></i>
+                <a href="#"> 2 year warranty</a>
+            </li>
+            <li>
+                <i class="fa fa-check" style="color: #000000;"></i>
+                <a href="#">Tried and tested results</a>
+            </li>  
+            
+        </div>
+    </div>
+    <div class="pricing-plans">
+        <h1>Pricing plans</h1>
+    </div>
+</body>
+</html>
